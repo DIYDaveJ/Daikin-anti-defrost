@@ -40,7 +40,10 @@ Remove the sensor cable from the main PCB. Attach the cable from the microcontro
 The black cable is attached to the ground on the Daikin PCB. (The two additional pins are not needed)
 ![connect_1](https://github.com/user-attachments/assets/5a1b1f58-e5d6-406e-b2ee-bb8326617f3e)
 
-The black ground cable must be connected to one of the wires at the upper right corner. I suppose a clamp could be used instead. This is not system ground! No parts of the microcontroller must be connected to the chassis of the heat pump.
+The black ground cable must be connected to one of the wires at the upper right corner. A test clamp like this one could also be used: https://www.reichelt.de/de/de/shop/produkt/klemmpruefspitze_haken_schwarz_loetanschluss-130668
+Note that the main PCB has a protective coating. If using a clamp, make sure to scratch off the coating.
+
+This is not system ground! No parts of the microcontroller must be connected to the chassis of the heat pump.
 ![Ground](https://github.com/user-attachments/assets/57aaacb9-752b-4b67-9981-b1b0d326ef81)
 
 Make sure to isolate the board so it doesn't touch the chassis. Use isolation tape or use an enclosure.
