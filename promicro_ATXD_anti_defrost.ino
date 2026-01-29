@@ -1,11 +1,11 @@
 /*
   Daikin ATXD anti defrost
   V1.0
-  28 Jan. 2026
+  29 Jan. 2026
 */
 
-#define serial_output 1
-#define adc_at_zero 340  //DAC value corresponding to 0 C (20k NTC with 33k series resistor)
+#define serial_output 0
+#define adc_at_zero 350  //DAC value corresponding to 1 C (20k NTC with 33k series resistor)
 
 uint16_t max_evap;
 uint16_t temp_evap;
@@ -101,9 +101,4 @@ void loop() {
   }
 }
 
-/*
-float evaluate_NTC(uint16_t val) {
-  Rth = R2 * 1023 / val - R2;
-  temperature = (1 / (A + (B * log(Rth)) + (C * pow((log(Rth)), 3)))) - ABSZERO;
-}
-*/
+
