@@ -47,3 +47,6 @@ This is not system ground! No parts of the microcontroller must be connected to 
 ![Ground](https://github.com/user-attachments/assets/57aaacb9-752b-4b67-9981-b1b0d326ef81)
 
 Make sure to isolate the board so it doesn't touch the chassis. Use isolation tape or use an enclosure.
+
+# Update
+Instead of crimping JST connectors, the two needed nodes on the thermistor connector can be directly connected with a Branch connector.
